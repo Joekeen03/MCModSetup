@@ -1,0 +1,8 @@
+myAuthorName // This is the "author name" (corresponds to 'myname' in the template). Can only include letters (upper and lower case), numbers, and spaces. Anything else will be considered invalid
+D:\A\Simple\Path // This is the full path to whatever folder you want all your mods under.
+// E.g. if you create two mods, 'foo' and 'bar', their folders will end up as:
+//	D:\A\Simple\Path\foo
+//	D:\A\Simple\Path\bar
+// under which all of their files (/src/, gradle.properties, and so on) will be stored
+// Note, the only things in this file should be the author name and the master path, on separate lines, in that order - no comments or anything, not even blank lines
+// I only did these as java-style comments because MC modders are likely to be familiar with them.
